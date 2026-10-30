@@ -34,6 +34,6 @@ while True:
 # Bu satır asla çalışmaz
 print("Çay hazır! (yalan)")
 
-# Gizli damga
-gizli = base64.b64decode("U2VjçbWxlciBzYWRlY2UgdW11dCBlZGVyIGFtYSBiZWtsZW1layBzYWRlY2U=").decode()  # decode edersen görürsün
-# print(gizli)  # açma, saklı kalsın
+# Gizli damga - saklı
+_gizli_mesaj = "VmFhdGxlciBzZcOnaW1kZW4gc29ucmEgZ2Vyw6dla2xlxZ9pciAoeWFsYW4p"
+# print(base64.b64decode(_gizli_mesaj).decode())  # açma sakın
